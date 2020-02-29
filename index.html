@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="text">What would you like to do?</div>
+        <a href="quiz.html">
+        <div id="option-buttons" class="btn-grid">
+                <button class="btn">Take This Quiz!</button>
+                <button class="btn">Or Take This Quiz!</button>
+            </div>
+        </a>
+    </div>
+
+    <script>
+         function YodaHasAQuestion() {
+             if (confirm("Ready, are you?") === true) {
+                return alert(`"Do or do not. There is no try."`);
+            } else {
+               return alert(`“Anger, fear, aggression. The dark side are they. Once you start down the dark path forever will it dominate your destiny.”`);
+             }
+         }
+         YodaHasAQuestion();
+    </script>
+</body>
+
+</html>
